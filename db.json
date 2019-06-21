@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "comment": [
+    { "user": "dev1", "comment": "comment 1" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {"id":"a60c9100-c2a6-4624-a348-4becd89864c8","comment":"comment","user":"name","timestamp":1561050670468},
+    {"id":"be224951-9f05-4e3f-a811-7ee184cd5318","comment":"video was awesome","user":"user1","timestamp":1561050700697}
   ],
-  "profile": {
-    "name": "typicode"
+  "details": {
+    "image": "https://c.ndtvimg.com/2019-05/086m1n18_pray-for-nesamani-nesamani_625x300_30_May_19.jpg",
+    "description": "Workshop",
+    "channel": "Company",
+    "uploader": "Android Dev",
+    "views": "2.4 M",
+    "uploadedTimeline": "12-06-19",
+    "channelSubscribers": 150000,
+    "channelOwner": "Developers"
   }
 }
